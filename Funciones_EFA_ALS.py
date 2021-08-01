@@ -141,7 +141,7 @@ class modelo_ajuste:
             C_1 = np.array(C_0)
 # =============================================================================
 #           En algunas ocasiones será necesario limitar el valor de C_1 a ser
-#           mayor que 0 en todo momento, para ello quite el simbolo # de la 
+#           mayor que 0 en todo momento, para ello quite el símbolo # de la 
 #           siguiente línea.
 # =============================================================================
             #C_1[C_1 < 0] = 0
@@ -249,7 +249,7 @@ class modelo_ajuste:
 # =============================================================================
 #     La variable tol_k se utiliza para limitar la variación en el valor de las 
 #     constantes de asociación, por default se mantiene a un 25%. Antes de 
-#     considerar variar este parametro varie el valor de K. 
+#     considerar variar este parámetro varíe el valor de K. 
 # =============================================================================
         tol_k = 0.25
         K1_sup = K[0] + (K[0] * tol_k)
@@ -330,7 +330,7 @@ class modelo_ajuste:
                 if pg < 1e12:
                     pg = 1e12
                 
-                #Función ojetivo
+                #Función objetivo
                 def C_cal(c): 
                     pen = 1e14
                     fun = sum(Y[:,i] - (c @ A_1.T))**2 + pg*(p1(c)**2 + p2(c)**2 + p3(c)**2 + p4(c)**2
@@ -347,7 +347,7 @@ class modelo_ajuste:
             C_1 = np.array(C_0)
 # =============================================================================
 #           En algunas ocasiones será necesario limitar el valor de C_1 a ser
-#           mayor que 0 en todo momento, para ello quite el simbolo # de la 
+#           mayor que 0 en todo momento, para ello quite el símbolo # de la 
 #           siguiente línea.
 # =============================================================================
             #C_1[C_1 < 0] = 0
@@ -386,7 +386,7 @@ class modelo_ajuste:
                 
                 plt.plot(range(0, nw), A_1, "-")
                 plt.xlabel("# canales", size = "xx-large")
-                plt.ylabel("Matriz A de propiedad obervada", size = "xx-large")
+                plt.ylabel("Matriz A de propiedad observada", size = "xx-large")
                 plt.xticks(size = "large")
                 plt.yticks(size = "large")
                 plt.show()
@@ -435,7 +435,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la funcion se ha estancado en un mínimo local. Considere cambiar K.")
+                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local. Considere cambiar K.")
                 print("#"*50)
                 break
             
@@ -465,7 +465,7 @@ class modelo_ajuste:
 # =============================================================================
 #     La variable tol_k se utiliza para limitar la variación en el valor de las 
 #     constantes de asociación, por default se mantiene a un 25%. Antes de 
-#     considerar variar este parametro varie el valor de K.
+#     considerar variar este parámetro varíe el valor de K.
 # =============================================================================
         tol_k = 0.25
         K1_sup = K[0] + (K[0] * tol_k)
@@ -554,7 +554,7 @@ class modelo_ajuste:
             C_1 = np.array(C_0)
 # =============================================================================
 #           En algunas ocasiones será necesario limitar el valor de C_1 a ser
-#           mayor que 0 en todo momento, para ello quite el simbolo # de la 
+#           mayor que 0 en todo momento, para ello quite el símbolo # de la 
 #           siguiente línea.
 # =============================================================================
             #C_1[C_1 < 0] = 0
@@ -598,7 +598,7 @@ class modelo_ajuste:
                 
                 plt.plot(range(0, nw), A_1, "-")
                 plt.xlabel("# canales", size = "xx-large")
-                plt.ylabel("Matriz A de propiedad obervada", size = "xx-large")
+                plt.ylabel("Matriz A de propiedad observada", size = "xx-large")
                 plt.xticks(size = "large")
                 plt.yticks(size = "large")
                 plt.show()
@@ -646,7 +646,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la funcion se ha estancado en un mínimo local, considere cambiar K.")
+                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local, considere cambiar K.")
                 print("#"*50)
                 break
 
@@ -675,7 +675,7 @@ class modelo_ajuste:
 # =============================================================================
 #     La variable tol_k se utiliza para limitar la variación en el valor de las 
 #     constantes de asociación, por default se mantiene a un 25%. Antes de 
-#     considerar variar este parametro varie el valor de K. 
+#     considerar variar este parámetro varíe el valor de K. 
 # =============================================================================
         tol_k = 0.25
         K1_sup = K[0] + (K[0] * tol_k)
@@ -770,7 +770,7 @@ class modelo_ajuste:
             C_1 = np.array(C_0)
 # =============================================================================
 #           En algunas ocasiones será necesario limitar el valor de C_1 a ser
-#           mayor que 0 en todo momento, para ello quite el simbolo # de la 
+#           mayor que 0 en todo momento, para ello quite el símbolo # de la 
 #           siguiente línea.
 # =============================================================================
             C_1[C_1 < 0] = 0
@@ -818,7 +818,7 @@ class modelo_ajuste:
                 
                 plt.plot(range(0, nw), A_1, "-")
                 plt.xlabel("# canales", size = "xx-large")
-                plt.ylabel("Matriz A de propiedad obervada", size = "xx-large")
+                plt.ylabel("Matriz A de propiedad observada", size = "xx-large")
                 plt.xticks(size = "large")
                 plt.yticks(size = "large")
                 plt.show()
@@ -866,7 +866,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la funcion se ha estancado en un mínimo local, considere cambiar K.")
+                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local, considere cambiar K.")
                 print("#"*50)
                 break
 
@@ -897,7 +897,7 @@ class modelo_ajuste:
 # =============================================================================
 #     La variable tol_k se utiliza para limitar la variación en el valor de las 
 #     constantes de asociación, por default se mantiene a un 25%. Antes de 
-#     considerar variar este parametro varie el valor de K. 
+#     considerar variar este parámetro varíe el valor de K. 
 # =============================================================================
         tol_k = 0.25
         K1_sup = K[0] + (K[0] * tol_k)
@@ -1001,7 +1001,7 @@ class modelo_ajuste:
             C_1 = np.array(C_0)
 # =============================================================================
 #           En algunas ocasiones será necesario limitar el valor de C_1 a ser
-#           mayor que 0 en todo momento, para ello quite el simbolo # de la 
+#           mayor que 0 en todo momento, para ello quite el símbolo # de la 
 #           siguiente línea.
 # =============================================================================
             C_1[C_1 < 0] = 0
@@ -1053,7 +1053,7 @@ class modelo_ajuste:
                 
                 plt.plot(range(0, nw), A_1, "-")
                 plt.xlabel("# canales", size = "xx-large")
-                plt.ylabel("Matriz A de propiedad obervada", size = "xx-large")
+                plt.ylabel("Matriz A de propiedad observada", size = "xx-large")
                 plt.xticks(size = "large")
                 plt.yticks(size = "large")
                 plt.show()
@@ -1101,7 +1101,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la funcion se ha estancado en un mínimo local, considere cambiar K.")
+                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local, considere cambiar K.")
                 print("#"*50)
                 break
 
