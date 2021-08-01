@@ -1,6 +1,6 @@
 # EFA-ALS
 
-¿Que hace EFA-ALS?
+¿Qué hace EFA-ALS?
 ==================
 
 El siguiente programa sirve para el ajuste de datos obtenidos por las técnicas de UV-Vis, fluorescencia, IR o cualquier otra que siga la relación que se observa en la ecuación 1. 
