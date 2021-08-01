@@ -199,7 +199,7 @@ class modelo_ajuste:
             print("Falta de ajuste (%): ",lof)
             print("Error absoluto medio: ",MAE)
             print("Constante de asociación :",round(k, 2))
-            print("diferencia en C total (%): ", dif_en_ct)
+            print("Diferencia en C total (%): ", dif_en_ct)
             print("="*50)
             
             stats = np.array([ssq_1, mu, lof, MAE, dif_en_ct])
@@ -416,7 +416,7 @@ class modelo_ajuste:
             print("Falta de ajuste (%): ",lof)
             print("Error absoluto medio: ",MAE)
             print("Constante de asociación :",k)
-            print("diferencia en C total (%): ",dif_en_ct)
+            print("Diferencia en C total (%): ",dif_en_ct)
             print("="*50)
             
             stats = np.array([ssq_1, mu, lof, MAE, dif_en_ct])
@@ -627,7 +627,7 @@ class modelo_ajuste:
             print("Falta de ajuste (%): ",lof)
             print("Error absoluto medio: ",MAE)
             print("Constante de asociación :",k)
-            print("diferencia en C total (%): ", dif_en_ct)
+            print("Diferencia en C total (%): ", dif_en_ct)
             print("="*50)
             
             stats = np.array([ssq_1, mu, lof, MAE, dif_en_ct])
@@ -847,7 +847,7 @@ class modelo_ajuste:
             print("Falta de ajuste (%): ",lof)
             print("Error absoluto medio: ",MAE)
             print("Constante de asociación :",k)
-            print("diferencia en C total (%): ",dif_en_ct)
+            print("Diferencia en C total (%): ",dif_en_ct)
             print("="*50)
             
             stats = np.array([ssq_1, mu, lof, MAE, dif_en_ct])
@@ -1082,7 +1082,7 @@ class modelo_ajuste:
             print("Falta de ajuste (%): ",lof)
             print("Error absoluto medio: ",MAE)
             print("Constante de asociación :",k)
-            print("diferencia en C total (%): ",dif_en_ct)
+            print("Diferencia en C total (%): ",dif_en_ct)
             print("="*50)
             
             stats = np.array([ssq_1, mu, lof, MAE, dif_en_ct])
