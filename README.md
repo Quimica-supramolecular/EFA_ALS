@@ -3,27 +3,13 @@
 ¿Que hace EFA-ALS?
 ==================
 
-El siguiente programa sirve para el ajuste de datos obtenidos por las técnicas 
-de UV-Vis, fluorescencia, IR o cualquier otra que siga la relación que se obser-
--va en la ecuación 1. 
+El siguiente programa sirve para el ajuste de datos obtenidos por las técnicas de UV-Vis, fluorescencia, IR o cualquier otra que siga la relación que se observa en la ecuación 1. 
 
                          Y = CA^T + E            Ec.1
 
-Donde Y es la matriz de la propiedad observada (absorbancia, fluorescencia,etc.), 
-C es la matriz de concentraciones de las especies, A^T es la matriz transpuesta
-de las absortividades molares y E es el error asociado a la medición. Para poder
-utilizar la ecuación 1 es indispensable tener un estimado inicial del perfil de
-concentraciones o de la absortividad molar de las especies en solución. En este
-caso, para este programa se ha eligido obtener un estimado inicial del perfil 
-de concentraciones utilizando la metodología de evolving factor análysis (EFA)
-de manera similar a lo descrito por Gampp et al., 1985[1]. Una vez obtenido el 
-perfil de concentraciones iniciales se estima un modelo químico coherente con el
-número de especies en solución y se utiliza el método de minimización de 
-alternating least squares(ALS) aplicando funciones de penalización de manera 
-similar a lo reportado por Gemperline y Cash en 2003 [2].
+Donde Y es la matriz de la propiedad observada (absorbancia, fluorescencia,etc.), C es la matriz de concentraciones de las especies, A^T es la matriz transpuesta de las absortividades molares y E es el error asociado a la medición. Para poder utilizar la ecuación 1 es indispensable tener un estimado inicial del perfil de concentraciones o de la absortividad molar de las especies en solución. En este caso, para este programa se ha eligido obtener un estimado inicial del perfil  de concentraciones utilizando la metodología de evolving factor análysis (EFA) de manera similar a lo descrito por Gampp et al., 1985[1]. Una vez obtenido el perfil de concentraciones iniciales se estima un modelo químico coherente con el número de especies en solución y se utiliza el método de minimización de alternating least squares(ALS) aplicando funciones de penalización de manera similar a lo reportado por Gemperline y Cash en 2003 [2].
 
-Cabe señalar que el cáculo de equilibrios químicos en este programa esta 
-limitado a modelos receptor-huesped desde 1:1 a 1:5.
+Cabe señalar que el cáculo de equilibrios químicos en este programa esta limitado a modelos receptor-huesped desde 1:1 a 1:5.
 
 Referencias 
 
