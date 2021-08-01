@@ -49,15 +49,15 @@ datos tales como:
       estimación del modelo de equilibrio químico a utilizar se recomienda hacer
       dos cálculos, el primero utilizando los autovalores claramente separados
       del resto. El segundo cálculo realícelo sumando un autovalor, elija el que
-      sea mas coherente con su sistema químico y obtenga el mejor ajuste a los
-      datos observados. NOTA: Debe ser un numero mayor a 1 y menor de 6.
+      sea más coherente con su sistema químico y obtenga el mejor ajuste a los
+      datos observados. NOTA: Debe ser un número mayor a 1 y menor de 6.
       
     - Deberá elegir un nivel de tolerancia para separar el ruido del análisis 
       de EFA y los autovalores importantes. Por default el valor es 0.25 y 
       deberá oprimir el numero cero para trabajar con ese valor, el cual será 
       útil la mayoría de las veces. Sin embargo, habrá ocasiones en el que ese
-      valor no sea el mas adecuado y deberá analizar la gráfica de EFA para 
-      establecer ese valor de manera mas exacta.
+      valor no sea el más adecuado y deberá analizar la gráfica de EFA para 
+      establecer ese valor de manera más exacta.
      
     - Por último, se le preguntará si desea ver las gráficas obtenidas de los 
       cálculos en cada paso iterativo. Gran parte del presente software fue 
@@ -65,7 +65,7 @@ datos tales como:
       el cual permite ver las gráficas en un panel especial sin interrumpir la
       ejecución del código. Por ende, si está utilizando Spyder puede elegir 
       ver las gráficas de manera iterativa sin problema alguno. Sin embargo, si
-      esta utilizando otro entorno de desarrollo sin un panel similar al de 
+      está utilizando otro entorno de desarrollo sin un panel similar al de 
       Spyder, considere que la ejecución del programa se detendrá cuando cada 
       gráfica aparezca y deberá cerrarla para que la ejecución continúe, para 
       estos casos cuando se le pregunte si desea ver las gráficas oprima Enter 
