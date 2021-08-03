@@ -278,7 +278,7 @@ def graficas(G, nw, c_sp, A_cal):
     plt.yticks(size = "large")
     plt.show()
 
-# Implemetación de ALS. 
+# Implementación de ALS. 
 
 from Funciones_EFA_ALS import *
 

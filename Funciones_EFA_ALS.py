@@ -218,7 +218,7 @@ class modelo_ajuste:
             
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la funcion se ha estancado en un mínimo local. Considere cambiar K, el valor pen de penalización o el parametro tol_k")
+                print("No se ha logrado la convergencia, el ajuste se ha estancado en un mínimo local. Considere cambiar K.")
                 print("#"*50)
                 break
             
@@ -305,8 +305,6 @@ class modelo_ajuste:
     
                 def p7(x): return lb - x[2]
                 
-                def p11(K): return K[0] - K[1] #no viable
-        
                 def p8(Gf):
                     p = 1/K[1] + 2 * H[i] - G[i]
                     q = 1/(K[0] * K[1]) + H[i]/K[1] - G[i]/K[1]
@@ -429,13 +427,13 @@ class modelo_ajuste:
 
             if it == 100:
                 print("#"*50)
-                print("No se ha logrado la convergencia, considere cambiar K.")
+                print("No se ha logrado la convergencia. Considere cambiar K.")
                 print("#"*50)
                 break
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local. Considere cambiar K.")
+                print("No se ha logrado la convergencia, el ajuste se ha estancado en un mínimo local. Considere cambiar K.")
                 print("#"*50)
                 break
             
@@ -646,7 +644,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local, considere cambiar K.")
+                print("No se ha logrado la convergencia, el ajuste se ha estancado en un mínimo local. Considere cambiar K.")
                 print("#"*50)
                 break
 
@@ -866,7 +864,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local, considere cambiar K.")
+                print("No se ha logrado la convergencia, el ajuste se ha estancado en un mínimo local. Considere cambiar K.")
                 print("#"*50)
                 break
 
@@ -1101,7 +1099,7 @@ class modelo_ajuste:
 
             if ssq > 1e-3 and c_ssq == 10:
                 print("#"*50)
-                print("No se ha logrado la convergencia, la función se ha estancado en un mínimo local, considere cambiar K.")
+                print("No se ha logrado la convergencia, el ajuste se ha estancado en un mínimo local. Considere cambiar K.")
                 print("#"*50)
                 break
 
